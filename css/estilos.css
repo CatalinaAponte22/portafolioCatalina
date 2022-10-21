@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;  
+}
+
+@font-face {
+    font-family: "Lavanda";
+    src: url("../fonts/Lavanda.otf") format("otf")
+  }
+
+h1,h2,h3 {
+    font-family: 'Lavanda', sans-serif;   
+    font-size: 60pt;   
+                             
+
+}
+p {
+    font-family: 'Oswald', Extralight;
+    font-size: 23pt;
+}
+.p2 {
+    font-family: 'Oswald', Semibold;
+}
+
+.head-logo img {
+    width: 100%;
+    max-width: 150px;
+}
+
+.head-info {
+    min-height: 100vh;
+}
+
+.head-nav {
+    height: 200px;
+    background-color: white;
+}
+
+.head-search input[type=text]{
+    width: 80%;
+    font-size: 20px;
+    padding: 10px 20px 5px;
+    border: none;
+} 
+
+.head-search button {
+    width: 20%;
+    font-size: 20px;
+    padding: 10px 20px 5px;
+    border: none;
+    background: none;
+    color: rgb(239, 195, 255); 
+}
+
+.head-search{
+    border-radius: 25px;
+  margin-top: 20px;
+  overflow: hidden;
+  border: 5px solid rgb(239, 195, 255);
+  font-size: 0px;
+  width: 100%;
+}
+
+.head-name{
+    background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+    border-radius: 20px;
+    height: 50px;
+    color: white;
+    width: 40%;
+    font-size: 45px;
+    text-align: center;
+}
+.head-name h2{
+    display: inline-block;
+    margin: 0 25px;
+}
+.head-separator{
+    height: 25px;
+
+}
+/*Segunda parte*/
+.nav-info{
+    font-size: 0;
+
+}
+.nav-button{
+    font-size: 40px;
+   
+}
+.nav-button a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: #B693AF;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    min-width: 250px;
+    text-align: center;
+}
+
+/*Tercera parte*/
+.section-info{
+    background-color: white;
+    height: 400px;
+    width: 100vh;
+}
+
+.section-social ul {
+    font-size: 0;
+    background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50px;
+    margin: 0 ;
+    padding: 0 10px;
+
+}
+
+.section-social li {
+    list-style: none;
+    display: block;
+    padding: 15px 0;
+}
+.section-social li a {
+    font-size: 30px;
+    color: white;
+}
+.section-social{
+    position: absolute;
+    top: 400px;
+}
+.section-video{
+    background-color: #B693AF;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-photo{
+    background-color: #B693AF;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    max-height: 300px;
+}
+
+.section-photo img {
+    width: 250px;
+    margin-top: -120px;
+    margin-left: -50px;
+    overflow: visible;
+    max-width: 250px;
+}
+
+
+
+/*cuarta parte*/
+
+.aside-button{
+    font-size: 30px;
+    width: 100%;
+   
+}
+.aside-button a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    min-width: 300px;
+    text-align: center;
+}
+
+/*misproyectos*/
+.proyectos{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+    padding: 10px 0;
+    margin: 20px;
+    border-radius: 20px;
+    min-width: 250px;
+    text-align: center;
+    max-height: 75px;
+    height: 100%;
+}
+
+.imagenes {
+    text-align: center;
+}
+
+.texto {
+    padding: 50px;
+}
+
+.color{
+    padding: 35px;
+}
+
+.footer {
+    background-image:linear-gradient(to right, rgba(118,23,141,1), rgba(92,72,160,1));
+}
+
+.loguito {
+    width: 55%;
+}
+
+.textofooter {
+    color: white;
+    margin: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*Sobre mi*/
+.foto2{
+    background-color: #B693AF;
+    max-height: 1195px;   overflow: hidden ;
+}
+.foto2 img{
+    width: 75%;
+   padding-top: 350px;
+
+}
+ .infome{
+    background-color: aqua;
+ }
+ .nada{
+    background-color: bisque
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.view-web{
+    display: block;
+}
+.view-phone{
+    display: none;
+}
+
+
+@media (max-width: 991px){
+    .aside-info{
+
+        height: 120px;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media (max-width: 991px) { 
+    .view-web{
+        display: none;
+    }
+    .view-phone{
+        display: block;
+    }
+.nav-button a {
+    min-width: 75px;
+}
+}
